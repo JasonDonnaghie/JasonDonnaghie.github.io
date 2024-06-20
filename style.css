@@ -1,0 +1,37 @@
+body{
+
+    background-color: rgb(34, 32, 32);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large; 
+
+    color: darkolivegreen;
+
+    }
+
+ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(53, 49, 49);
+    font-size: larger;
+
+
+    }
+
+li{
+    float: right;
+
+    }
+
+li a{
+    display: block;
+    color: rgb(82, 90, 98);
+    text-align: center ;
+    padding: 24px;
+    }
+
+li a:hover{
+    background-color: rgb(25, 27, 25);
+    }
