@@ -1,0 +1,1 @@
+This is just a personal website where i'll be uploading my write-ups and any other interesting projects that i work on

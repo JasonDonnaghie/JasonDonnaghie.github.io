@@ -35,3 +35,12 @@ li a{
 li a:hover{
     background-color: rgb(25, 27, 25);
     }
+
+#corvusImage{
+
+    border-radius: 50%;
+
+    }
+.MainContent{
+    font-style: oblique;
+    }
