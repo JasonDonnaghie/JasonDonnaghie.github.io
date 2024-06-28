@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet" />
+  
+  </head>
+  
+  
+  <body>
+  
+    <div class="sidebar">
+      <div class="top">
+        <div class="logo">
+          <i class="bx bxl-codepen"></i>
+          <span>OmniCorvus</span>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <div class="user">
+        <img src="/assets/Corvus.jpg" alt="Corvus" class="user-img ">
+        <div>
+          <p class="bold">Jason</p>
+          <p>Donnaghie</p>
+        </div>
+      </div>
+    
+      <ul>
+        <li>
+          <a href="index.html">
+            <i class="bx bxs-home"></i>
+            <span class="nav-item">Home</span>
+          </a>
+          <span class="tooltip">Home</span>
+        </li>
+    
+        <li>
+          <a href="writeups.html">
+            <i class="bx bxs-pen"></i>
+            <span class="nav-item">Write-Ups</span>
+          </a>
+          <span class="tooltip">Write-Ups</span>
+        </li>
+    
+        <li>
+          <a href="projects.html">
+            <i class="bx bxs-box"></i>
+            <span class="nav-item">Projects</span>
+          </a>
+          <span class="tooltip">Projects</span>
+        </li>
+    
+        <li>
+          <a href="about.html">
+            <i class="bx bxs-brain"></i>
+            <span class="nav-item">About</span>
+          </a>
+          <span class="tooltip">About</span>
+        </li>
+      </ul>
+    
+    </div>
+    
+  
+  
+    <div class="main-content">
+  
+      <div class="container">
+          <h1>Heading</h1>
+          <h1>Right Side</h1>
+      </div>
+  
+    </div>
+  
+    
+  
+  </body>
+  
+  <script>
+    let btn = document.getElementById("btn");
+    let sidebar = document.getElementsByClassName("sidebar")[0];
+    
+  
+    btn.onclick = function ()
+    {
+      sidebar.classList.toggle('active');
+      
+    };
+  
+  </script>
+  
+  </html>

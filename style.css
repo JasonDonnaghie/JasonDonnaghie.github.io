@@ -3,51 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-
-.sidebar{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 80px;
-
-    background-color: #333030;
-    padding: .4rem .8rem;
-    transition: all 0.5s ease;
-}
-.sidebar.active ~ .main-content{
-
-    left: 250px;
-    width: calc(100% - 250px);
-
-
-}
-.sidebar.active{
-    width: 250px;
 }
 
 .user-img{
     width: 50px;
     border-radius: 100%;
     border: 1px solid #504f4f;
-    }
-
-.sidebar #btn{
-    position: absolute;
-    top: .4rem;
-    left: 50%;
-    font-size: 1.2rem;
-    line-height: 50px;
-    transform: translateX(-50%);
-    cursor: pointer;
-    color: darkolivegreen;
-}
-
-.sidebar.active #btn{
-    left: 90%;
 }
 
 .sidebar .top .logo{
@@ -58,12 +19,6 @@
     align-items: center;
     pointer-events: none;
     opacity: 0;
-}
-
-.sidebar.active .top .logo{
-
-    opacity: 1;
-
 }
 
 .top .logo i {
@@ -79,19 +34,17 @@
     color: darkolivegreen;
     opacity: 1;
     margin-left: 1rem;
-    
+    position:relative;
+    padding-top: 3px;
 }
 
 .bold {
     font-weight: 600;
+    padding-left: 11px;
 }
 
 .sidebar p{
     opacity: 0;
-}
-
-.sidebar.active p{
-    opacity: 1;
 }
 
 .sidebar ul li{
@@ -115,6 +68,7 @@
     background-color: #fff;
     color: #12171e;
 }
+
 .sidebar ul li a i{
     min-width: 50px;
     text-align: center;
@@ -125,10 +79,6 @@
 
 .sidebar .nav-item{
     display: none;
-}
-
-.sidebar.active .nav-item{
-    display: block;
 }
 
 .sidebar ul li .tooltip{
@@ -153,6 +103,76 @@
     opacity: 1;
 }
 
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80px;
+
+    background-color: #333030;
+    padding: .4rem .8rem;
+    transition: all 0.5s ease;
+}
+
+.sidebar #btn{
+    position: absolute;
+    top: .4rem;
+    left: 50%;
+    font-size: 1.2rem;
+    line-height: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+    color: darkolivegreen;
+}
+.sidebar.active{
+    width: 250px;
+}
+.sidebar.active ~ .main-content{
+
+    left: 250px;
+    width: calc(100% - 250px);
+
+
+}
+
+
+
+
+
+
+.sidebar #btn{
+    position: absolute;
+    top: .4rem;
+    left: 50%;
+    font-size: 1.2rem;
+    line-height: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+    color: darkolivegreen;
+}
+
+.sidebar.active #btn{
+    left: 90%;
+}
+
+
+.sidebar.active .top .logo{
+    opacity: 1;
+}
+
+
+.sidebar.active p{
+    opacity: 1;
+}
+
+
+.sidebar.active .nav-item{
+    display: block;
+}
+
+
+
 .sidebar.active ul li:hover .tooltip{
     opacity: 0;
     display: none;
@@ -173,3 +193,4 @@
     display: flex;
     justify-content: space-between;
 }
+

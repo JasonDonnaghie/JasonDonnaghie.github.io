@@ -28,42 +28,44 @@
         <p>Donnaghie</p>
       </div>
     </div>
-
+  
     <ul>
       <li>
-        <a href="#">
+        <a href="index.html">
           <i class="bx bxs-home"></i>
           <span class="nav-item">Home</span>
         </a>
         <span class="tooltip">Home</span>
       </li>
-
+  
       <li>
-        <a href="#">
+        <a href="writeups.html">
           <i class="bx bxs-pen"></i>
           <span class="nav-item">Write-Ups</span>
         </a>
         <span class="tooltip">Write-Ups</span>
       </li>
-
+  
       <li>
-        <a href="#">
+        <a href="projects.html">
           <i class="bx bxs-box"></i>
           <span class="nav-item">Projects</span>
         </a>
         <span class="tooltip">Projects</span>
       </li>
-
+  
       <li>
-        <a href="#">
+        <a href="about.html">
           <i class="bx bxs-brain"></i>
           <span class="nav-item">About</span>
         </a>
         <span class="tooltip">About</span>
       </li>
     </ul>
-
+  
   </div>
+  
+
 
   <div class="main-content">
 
@@ -75,18 +77,18 @@
   </div>
 
   
- 
+
 </body>
 
-
 <script>
-
-  let btn = document.querySelector('#btn');
-  let sidebar = document.querySelector('.sidebar');
+  let btn = document.getElementById("btn");
+  let sidebar = document.getElementsByClassName("sidebar")[0];
+  
 
   btn.onclick = function ()
   {
     sidebar.classList.toggle('active');
+    
   };
 
 </script>
