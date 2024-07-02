@@ -195,7 +195,7 @@
     display: flex;
     justify-content: space-between;
 }
-.about{
+.about .heading{
     text-align: center;
     padding-top: 30px;
 }
@@ -205,19 +205,19 @@
     padding-top: 10px;
 }
 
-.about h2{
+.about .heading h2{
     padding: 25px;
 }
-.about h3{
+.about .heading h3{
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 10%;
     padding-right: 10%;
 }
-.about p{
+.about .heading p{
     padding-left: 20%;
     padding-right: 20%;
-    
+
 }
 
 
