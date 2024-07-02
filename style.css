@@ -86,7 +86,7 @@
     left: 125px;
     top: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+   
 
     border-radius: 0.6rem;
     padding: 0.4rem 1.2rem;
@@ -101,6 +101,7 @@
 
 .sidebar ul li:hover .tooltip{
     opacity: 1;
+    color: darkolivegreen;
 }
 
 .sidebar{
@@ -180,17 +181,42 @@
 
 .main-content{
     position: relative;
-    background-color: #fff;
+    background-color: #000000c5;
     min-height: 100vh;
     top: 0;
     left: 80px;
     transition: all 0.5s ease;
     width: calc(100% - 80px);
     padding: 1rem;
+    color: darkolivegreen;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
 }
+.about{
+    text-align: center;
+    padding-top: 30px;
+}
+.about .about-img{
+    border-radius: 20%;
+    width: 250px;
+    padding-top: 10px;
+}
+
+.about h2{
+    padding: 25px;
+}
+.about h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.about p{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 
